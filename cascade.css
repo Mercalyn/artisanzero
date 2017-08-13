@@ -1,0 +1,184 @@
+<!------------
+My software never has bugs. It just develops random features.
+------------->
+
+body{
+	background-color: #fff;
+	overflow-x:hidden;
+}
+h1{
+	color: #fff;
+	font-variant:small-caps;
+	font-style:italic;
+	padding-left:20px;
+	font-size:22pt;
+}
+h1.tan{
+	color: #fff;
+}
+h1.ban{
+	color: #fff;
+	margin-top:10px;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	border-left:20px solid #000;
+	border-right:20px solid #000;
+	text-shadow: #000 2px 2px 2px;
+	height:100px;
+	display:table-cell;
+	vertical-align: middle;
+	width:820px;
+	background-image:url(render/goldleaf122.png);
+	background-repeat:no-repeat;
+	background-position:top center; 
+	overflow:hidden;
+}
+h2{
+	color:#fff;
+	padding:0px;
+	margin-bottom:2px;
+	font-family:"times new roman";
+	font-size:16pt;
+	font-variant:small-caps;
+	letter-spacing:4px;
+	white-space:pre;
+}
+h4{
+	color: rgb(103,151,223);
+	font-size:14pt;
+	padding-left:20px;
+	padding-top:0px;
+	margin:0px;
+	border-top:1px solid #000
+	border-bottom:1px solid #aaa
+}
+
+
+p{
+	font-size:12pt;
+	text-indent:20px;
+	padding-left:20px;
+	padding-right:20px;
+	letter-spacing: .2em;
+	line-height: 1.5em; 
+}
+p.hidden{
+	color:#C1CDCD;
+}
+p.emphasys{
+	font-size:18pt;
+	padding-left:24px;
+	letter-spacing: .2em;
+	line-height: 1em; 
+	color: #525C65;
+}
+
+.tdcoloo{
+	background-color: #C1CDCD;
+	border-left: 1px solid #2F2F4F;
+	border-right: 1px solid #2F2F4F;
+	border-bottom: 1px solid #2F2F4F;
+/* nice soft green shade is #CCCC99; */
+}
+.tdcolox{
+	border-left: 10px solid #fff;
+	border-right: 10px solid #fff;
+	border-bottom: 10px solid #fff;
+	position:relative;
+	top:-1px;
+
+}
+h2:hover{
+	background-color:#fff;
+	color:#000;
+}
+h4:hover{
+	color: #000;
+	cursor:pointer;
+}
+tablehala{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+tableinner{
+	position:relative;
+	width:1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navin{
+	position:absolute;
+	bottom:-4px;
+	left:50%;
+	margin-left:-200px;
+}
+.navslide{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.divbanner{
+	position:relative;
+	height:120px;
+	width:100%;
+}
+.test{
+	background-color:red;
+	position:absolute;
+	top:0px;
+	height:20px;
+	width:20px;
+}
+
+.banner{
+	top:0px;
+	left:0px;
+	position:absolute;
+	height:120px;
+	width:100%;
+	background-image:url(render/banner4000export.jpg);
+	background-repeat:no-repeat;
+	background-position:top center; 
+	overflow:hidden;
+	border-bottom:1px solid #000;
+}
+a:link{
+	text-decoration: none;
+	color: rgb(103,151,223);
+	font-variant:small-caps;
+}
+a:visited{
+	text-decoration: none;
+	color: rgb(103,151,223);
+	font-variant:small-caps;
+}
+a:active{
+	text-decoration: none;
+	color: rgb(103,151,223);
+	font-variant:small-caps;
+}
+a:hover{
+	text-decoration: none;
+	color:#fff;
+}
+.nonet{
+	background-image:url(render/subtle.png);
+	background-repeat:no-repeat;
+	margin:15px 40px;
+	border:1px solid black;
+	padding-bottom:40px;
+}
+.sunet{
+	margin-left:20px;
+	padding-bottom:20px;
+}
+.tablcolo{
+	background-image:url(render/navheader.png);
+	background-repeat:no-repeat;
+	width:320px;
+	border:1px solid #BDBDBD;
+	text-align:center
+	padding:0px;
+}
